@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif !important;
+    /* overflow-x: hidden; */
+    background-color: white;
+}
+
+
+/* Media Quiries  */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .home-section {
+        background-image: url(asssets/backgrounds/blue\ background\ for\ home\ section.png);
+        background-position: center top !important;
+        background-size: auto 50% !important;
+        padding-bottom: 1rem !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .home-section-content {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: left !important;
+        /* border: 2px solid white; */
+        margin: 1rem 0rem 0rem 0rem !important;
+    }
+
+    .your-agency-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-left-items {
+        display: flex !important;
+        flex-direction: column !important;
+        color: white;
+        align-items: center;
+    }
+
+    .brand-name {
+        padding-right: 0.5rem !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .brand-name img {
+        display: flex;
+        align-items: center;
+        /* width: 90%;
+        height: auto; */
+        padding-top: 0.3rem;
+        ;
+    }
+
+    .nav-items ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-items li {
+        list-style-type: none;
+        padding-right: 1.5rem;
+        padding-top: 0.4rem;
+    }
+
+    .nav-items a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav-items a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    .right-items {
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-us-button {
+        color: blue;
+        background-color: white;
+        padding: 0.9rem 2rem 0.9rem 2rem;
+        border-radius: 2rem;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600 !important;
+        /* box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); */
+    }
+
+    .contact-us-button:active {
+        transform: scale(0.98);
+        /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+    }
+
+    .series-of-dots-vertical-shape {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        left: 6px;
+        top: 8rem;
+        max-width: 3.5rem;
+        height: auto;
+    }
+
+    .left-aligned-home-section-round-and-inround-bg {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        left: 6px;
+        top: 8rem;
+        max-width: 3.5rem;
+        height: auto;
+    }
+
+    .home-content-left-items {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+        position: absolute;
+        /* border: 4.5px dashed rgb(255, 109, 109); */
+    }
+
+    .home-content-left-items h1 {
+        font-size: 53px;
+    }
+
+    .home-content-left-items p {
+        margin-top: -20px;
+        font-size: 13px;
+        margin-bottom: 2rem;
+    }
+
+    .learn-more-button {
+        color: black;
+        background-color: rgb(25, 185, 249);
+        padding: 0.9rem 3.5rem 0.9rem 3.5rem;
+        border-radius: 2rem;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        /* box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); */
+    }
+
+    .learn-more-button:active {
+        transform: scale(0.98);
+        /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+    }
+
+    .home-content-right-tems {
+        /* border: 3px solid rgb(255, 242, 59); */
+        padding: 0.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 40%;
+    }
+
+
+
+    .background-dots-home-section {
+        height: 400px;
+        width: 480px;
+        position: relative;
+        left: 53px
+    }
+
+    .home-section-yellow-cirlce {
+        height: 360px;
+        width: 360px;
+        position: relative;
+        margin-top: 1.8rem;
+        left: -18rem;
+    }
+
+    .home-section-lady-sitting {
+        height: 600px;
+        width: 700px;
+        margin-left: -234px;
+        margin-top: 9rem;
+        position: absolute;
+    }
+
+    /* End of Home Section CSS */
+
+
+    /* Starting of About Us Section CSS */
+    .about-us-section {
+        display: flex;
+        align-content: center;
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+    }
+
+    .chirag-image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .white-clicle-bg-about-us-section {
+        position: relative;
+        max-width: 550px;
+        max-height: 470px;
+        padding-left: 7rem;
+        margin-top: -2rem;
+    }
+
+    .chirag-image {
+        position: absolute;
+        max-width: 505px;
+        max-height: 587px;
+        padding-left: 4rem;
+        padding-right: 5rem;
+    }
+
+    .oval-yellow-about-us-section {
+        position: relative;
+        max-width: 150px;
+        max-height: 150px;
+        left: -11rem;
+    }
+
+    .about-us-right-items {
+        color: rgb(19, 19, 107);
+        padding: 2rem;
+    }
+
+    .about-us-heading {
+        font-size: 22.5px !important;
+        letter-spacing: 2.8px !important;
+        font-weight: 500;
+        margin-bottom: -1.2rem;
+        color: blueviolet !important;
+    }
+
+    .about-us-right-items h1 {
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 48px;
+    }
+
+    .about-us-right-items p {
+        margin-top: -20px;
+        font-size: 13px;
+        margin-bottom: 2rem;
+    }
+
+    .learn-more-button2 {
+        color: rgb(5, 5, 118);
+        background-color: rgb(245, 210, 7);
+        padding: 0.9rem 3.5rem 0.9rem 3.5rem;
+        border-radius: 2rem;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        /* box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); */
+    }
+
+    .learn-more-button2:active {
+        transform: scale(0.98);
+        /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+    }
+
+    .learn-more-button2:hover {
+        text-decoration: underline;
+    }
+
+    .about-us-grey-cirlce {
+        position: absolute;
+        height: 300px;
+        width: 230px;
+    }
+
+    .about-us-grey-circle-ring {
+        position: relative;
+        height: 300px;
+        width: 230px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    ...
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    ...
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    ...
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    ...
+}
+
+
+
+
+/* Starting of Home Section CSS */
+
+
+.home-section {
+    background-image: url(asssets/backgrounds/blue\ background\ for\ home\ section.png);
+    /* height: auto; */
+    -webkit-background-size: conatin;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    height: 2210px;
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+
+    padding: 1rem 3rem 1rem 10rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-section-content {
+    display: flex !important;
+    justify-content: space-between !important;
+    /* border: 2px solid white; */
+    margin: 4rem 0rem 0rem 0rem;
+}
+
+.your-agency-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left-items {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.brand-name {
+    padding-right: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.brand-name img {
+    display: flex;
+    align-items: center;
+    /* width: 90%;
+    height: auto; */
+    padding-top: 0.3rem;
+    ;
+}
+
+.nav-items ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-items li {
+    list-style-type: none;
+    padding-right: 1.5rem;
+    padding-top: 0.4rem;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-items a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.right-items {
+    display: flex;
+    align-items: center;
+}
+
+.contact-us-button {
+    color: blue;
+    background-color: white;
+    padding: 0.9rem 2rem 0.9rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+    /* box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); */
+}
+
+.contact-us-button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+.series-of-dots-vertical-shape {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 6px;
+    top: 8rem;
+    max-width: 3.5rem;
+    height: auto;
+}
+
+.left-aligned-home-section-round-and-inround-bg {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 6px;
+    top: 8rem;
+    max-width: 3.5rem;
+    height: auto;
+}
+
+.home-content-left-items {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    position: absolute;
+    /* border: 4.5px dashed rgb(255, 109, 109); */
+}
+
+.home-content-left-items h1 {
+    font-size: 53px;
+}
+
+.home-content-left-items p {
+    margin-top: -20px;
+    font-size: 13px;
+    margin-bottom: 2rem;
+}
+
+.learn-more-button {
+    color: black;
+    background-color: rgb(25, 185, 249);
+    padding: 0.9rem 3.5rem 0.9rem 3.5rem;
+    border-radius: 2rem;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    /* box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); */
+}
+
+.learn-more-button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+.home-content-right-tems {
+    /* border: 3px solid rgb(255, 242, 59); */
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 40%;
+}
+
+
+
+.background-dots-home-section {
+    height: 400px;
+    width: 480px;
+    position: relative;
+    left: 53px
+}
+
+.home-section-yellow-cirlce {
+    height: 360px;
+    width: 360px;
+    position: relative;
+    margin-top: 1.8rem;
+    left: -18rem;
+}
+
+.home-section-lady-sitting {
+    height: 600px;
+    width: 700px;
+    margin-left: -234px;
+    margin-top: 9rem;
+    position: absolute;
+}
+
+/* End of Home Section CSS */
+
+
+/* Starting of About Us Section CSS */
+.about-us-section {
+    display: flex;
+    align-content: center;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+.chirag-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.white-clicle-bg-about-us-section {
+    position: relative;
+    max-width: 550px;
+    max-height: 470px;
+    padding-left: 7rem;
+    margin-top: -2rem;
+}
+
+.chirag-image {
+    position: absolute;
+    max-width: 505px;
+    max-height: 587px;
+    padding-left: 4rem;
+    padding-right: 5rem;
+}
+
+.oval-yellow-about-us-section {
+    position: relative;
+    max-width: 150px;
+    max-height: 150px;
+    left: -11rem;
+}
+
+.about-us-right-items {
+    color: rgb(19, 19, 107);
+    padding: 2rem;
+}
+
+.about-us-heading {
+    font-size: 22.5px !important;
+    letter-spacing: 2.8px !important;
+    font-weight: 500;
+    margin-bottom: -1.2rem;
+    color: blueviolet !important;
+}
+
+.about-us-right-items h1 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.about-us-right-items p {
+    margin-top: -20px;
+    font-size: 13px;
+    margin-bottom: 2rem;
+}
+
+.learn-more-button2 {
+    color: rgb(5, 5, 118);
+    background-color: rgb(245, 210, 7);
+    padding: 0.9rem 3.5rem 0.9rem 3.5rem;
+    border-radius: 2rem;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    /* box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); */
+}
+
+.learn-more-button2:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+.learn-more-button2:hover {
+    text-decoration: underline;
+}
+
+.about-us-grey-cirlce {
+    position: absolute;
+    height: 300px;
+    width: 230px;
+}
+
+.about-us-grey-circle-ring {
+    position: relative;
+    height: 300px;
+    width: 230px;
+}
