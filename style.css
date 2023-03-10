@@ -147,12 +147,12 @@ body {
     }
 
     .home-content-left-items h1 {
-        font-size: 40px !important;
+        font-size: 2.5rem !important;
     }
 
     .home-content-left-items p {
         margin-top: 0px !important;
-        font-size: 12px !important;
+        font-size: 0.8rem !important;
     }
 
     .learn-more-button {
@@ -186,18 +186,19 @@ body {
 
 
     .background-dots-home-section {
-        height: 400px;
-        width: 480px;
+        height: 18rem !important;
+        width: 17rem !important;
         position: relative;
-        left: 53px
+        left: 10rem !important;
+        top: 26rem !important;
     }
 
     .home-section-yellow-cirlce {
-        height: 360px;
-        width: 360px;
+        height: 15rem !important;
+        width: 15rem !important;
         position: relative;
-        margin-top: 1.8rem;
-        left: -18rem;
+        top: 25rem !important;
+        left: -7rem !important;
     }
 
     .home-section-lady-sitting {
