@@ -10,6 +10,7 @@ body {
     /* overflow-x: hidden; */
     background-color: white;
     transition: all 0.8s ease !important;
+    box-sizing: border-box;
 }
 
 
@@ -20,7 +21,7 @@ body {
     .home-section {
         background-image: url(asssets/backgrounds/blue\ background\ for\ home\ section.png);
         background-position: center top !important;
-        background-size: auto 50% !important;
+        background-size: auto 55% !important;
         padding-bottom: 0rem !important;
         background-repeat: no-repeat !important;
         padding-left : 4rem !important;
@@ -64,22 +65,22 @@ body {
     .nav-items {
         display: flex !important;
         align-items: flex-start !important;
-        margin-left: 0px !important;
+        margin-left: 0rem !important;
     }
 
     .nav-items ul {
         display: flex !important; 
         flex-direction: column !important;
         align-items: flex-start !important;
-        padding-left: 0px !important;
-        margin-left: 0px !important;
+        padding-left: 0rem !important;
+        margin-left: 0rem !important;
     }
 
     .nav-items li {
         list-style-type: none;
         padding-right: 5rem !important;
         padding-top: 0.4rem;
-        font-size: 15px !important;
+        font-size: 0.9rem !important;
     }
 
     .nav-items a {
@@ -105,14 +106,13 @@ body {
         border: none;
         font-family: 'Poppins', sans-serif;
         font-weight: 600 !important;
-        /* box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); */
-        transition: 0.8s !important;
+        transition: 0.2s !important;
     }
 
     .contact-us-button:active {
         transform: scale(0.98);
         /* Scaling button to 0.98 to its original size */
-        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
         /* Lowering the shadow */
     }
 
@@ -147,12 +147,12 @@ body {
     }
 
     .home-content-left-items h1 {
-        font-size: 40px !important;
+        font-size: 2.5rem !important;
     }
 
     .home-content-left-items p {
         margin-top: 0px !important;
-        font-size: 12px !important;
+        font-size: 0.8rem !important;
     }
 
     .learn-more-button {
@@ -175,36 +175,38 @@ body {
     }
 
     .home-content-right-tems {
-        /* border: 3px solid rgb(255, 242, 59); */
+        /* border: 3px solid rgb(255, 242, 59) !important; */
         padding: 0.4rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        max-width: 40%;
+        max-width: 50%;
+        margin-top: 2rem !important;
     }
 
 
 
     .background-dots-home-section {
-        height: 400px;
-        width: 480px;
+        height: 12rem !important;
+        width: 18rem !important;
         position: relative;
-        left: 53px
+        left: 8rem !important;
+        top: 27rem !important;
     }
 
     .home-section-yellow-cirlce {
-        height: 360px;
-        width: 360px;
+        height: 13rem !important;
+        width: 17rem !important;
         position: relative;
-        margin-top: 1.8rem;
-        left: -18rem;
+        top: 27rem !important;
+        left: -5rem !important;
     }
 
     .home-section-lady-sitting {
-        height: 600px;
-        width: 700px;
-        margin-left: -234px;
-        margin-top: 9rem;
+        height: 16rem !important;
+        width: 17rem !important;
+        left: 17rem !important;
+        top: 39rem !important;
         position: absolute;
     }
 
