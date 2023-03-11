@@ -187,23 +187,23 @@ body {
 
 
     .background-dots-home-section {
-        height: 12rem !important;
-        width: 18rem !important;
+        height: auto !important;
+        width: 13rem !important;
         position: relative;
-        left: 8rem !important;
-        top: 27rem !important;
+        left: 6rem !important;
+        top: 25.7rem !important;
     }
 
     .home-section-yellow-cirlce {
-        height: 13rem !important;
-        width: 17rem !important;
+        height: auto !important;
+        width: 10rem !important;
         position: relative;
-        top: 27rem !important;
-        left: -5rem !important;
+        top: 24.7rem !important;
+        left: -4rem !important;
     }
 
     .home-section-lady-sitting {
-        height: 16rem !important;
+        height: auto !important;
         width: 17rem !important;
         left: 17rem !important;
         top: 39rem !important;
