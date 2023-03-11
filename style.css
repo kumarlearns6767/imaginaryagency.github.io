@@ -175,37 +175,38 @@ body {
     }
 
     .home-content-right-tems {
-        /* border: 3px solid rgb(255, 242, 59); */
+        /* border: 3px solid rgb(255, 242, 59) !important; */
         padding: 0.4rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        max-width: 40%;
+        max-width: 50%;
+        margin-top: 2rem !important;
     }
 
 
 
     .background-dots-home-section {
-        height: 18rem !important;
-        width: 17rem !important;
+        height: 12rem !important;
+        width: 18rem !important;
         position: relative;
-        left: 10rem !important;
-        top: 26rem !important;
+        left: 8rem !important;
+        top: 27rem !important;
     }
 
     .home-section-yellow-cirlce {
-        height: 15rem !important;
-        width: 15rem !important;
+        height: 13rem !important;
+        width: 17rem !important;
         position: relative;
-        top: 25rem !important;
-        left: -7rem !important;
+        top: 27rem !important;
+        left: -5rem !important;
     }
 
     .home-section-lady-sitting {
-        height: 600px;
-        width: 700px;
-        margin-left: -234px;
-        margin-top: 9rem;
+        height: 16rem !important;
+        width: 17rem !important;
+        left: 17rem !important;
+        top: 39rem !important;
         position: absolute;
     }
 
